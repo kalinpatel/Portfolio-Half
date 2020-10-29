@@ -806,6 +806,7 @@ a:hover
 #contact #contact-form
 {
     position: relative;
+    width: 100%;
 }
 
 #contact #contact-form .fhp-input
@@ -833,9 +834,12 @@ a:hover
     border: none !important;
     border-radius: 34px;
     outline: none !important;
-    background: #111;
+    background: #015fd8;
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
+}
+#contact #contact-form button {
+	background: #ea0036;
 }
 
 #contact #contact-form.success input,
@@ -949,7 +953,12 @@ a:hover
 {
     width: 100%;
 }
-
+#contact #contact-form input:hover {
+	background: #ea00e6;
+}
+#contact #contact-form textarea:hover {
+	background: #ea00e6;
+}
 #contact #contact-form .success-message
 {
     font-size: 2rem;
