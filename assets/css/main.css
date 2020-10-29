@@ -248,8 +248,8 @@ a:hover
             transition: opacity 1s ease;
 
     background: url(../img/background.jpg);
-/*     background-repeat: no-repeat;
-    background-size: 44vw; */
+    background-repeat: no-repeat;
+    background-size: 100%;
 	
     transition: 1000ms;
 }
