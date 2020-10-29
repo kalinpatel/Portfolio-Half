@@ -398,18 +398,18 @@
                     <form name="contact" id="contact-form" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" action="https://google.com" >
                       <p>
 <!--                         <label for="name">Name</label> -->
-                        <input id="contact-form-name" type="text" name="name" placeholder="Name" class="scroll-animated-from-right"/>
+                        <input id="contact-form-name" type="text" name="name" required="required" placeholder="Name" class="scroll-animated-from-right" autocomplete="off"/>
                       </p>
                     <p class="hidden">
                       <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                     </p>
                       <p>
 <!--                         <label for="email">Email</label> -->
-                        <input id="contact-form-email" type="text" name="email" placeholder="Email" class="scroll-animated-from-right" width="100%"/>
+                        <input id="contact-form-email" type="email" required="required" name="email" placeholder="Email" class="scroll-animated-from-right" width="100%" autocomplete="email"/>
                       </p>
                       <p>
 <!--                         <label for="message">Message</label> -->
-                        <textarea id="contact-form-message" name="message" placeholder="Message" class="scroll-animated-from-right"></textarea>
+                        <textarea id="contact-form-message" name="message" required="required" placeholder="Message" class="scroll-animated-from-right"></textarea>
                       </p>
                        <div data-netlify-recaptcha="true"></div>
                        <p>&nbsp;</p>
