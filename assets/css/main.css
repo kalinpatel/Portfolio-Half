@@ -107,7 +107,8 @@ a:focus
 
 a:hover
 {
-    color: #111;
+/*     color: #015fd8; */
+	color: #ea00e6;
 }
 
 @media (max-width:600px)
@@ -386,7 +387,7 @@ a:hover
     content: '';
 
     border-radius: 100px;
-    background: #111;
+    background: #015fd8;
 }
 
 #intro .container-mid a:after
@@ -404,7 +405,7 @@ a:hover
          -o-transition: .2s ease;
             transition: .2s ease;
 
-    background: #008aff;
+    background: #ea00e6;
 }
 
 #intro .container-mid a:hover:after
