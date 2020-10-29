@@ -249,7 +249,7 @@ a:hover
 
     background: url(../img/background.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 105%;
 	
     transition: 1000ms;
 }
