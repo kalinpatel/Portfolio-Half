@@ -247,6 +247,8 @@ a:hover
     background: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment:fixed;
+    transition: 1000ms;
 }
 
 @media (max-width:1200px)
