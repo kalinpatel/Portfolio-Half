@@ -57,57 +57,6 @@ jQuery(document).ready(function($) {
     
     
     // AJAX CONTACT FORM SUBMIT
-    $("#contact-form").submit(function(e) {
-
-        e.preventDefault();
-        var postdata = $(this).serialize();
-
-        $.ajax({
-
-            type: "POST",
-            url: "assets/php/contact.php",
-            data: postdata,
-            dataType: "json",
-            success: function(json) {
-
-                $("#contact-form input, #contact-form textarea").removeClass("error");
-
-                setTimeout(function(){
-
-                    if (json.nameMessage !== "") {
-
-                        $("#contact-form-name").addClass("error");
-
-                    }
-
-                    if (json.emailMessage !== "") {
-
-                        $("#contact-form-email").addClass("error");
-
-                    }
-
-                    if (json.messageMessage !== "") {
-
-                        $("#contact-form-message").addClass("error");
-
-                    }
-
-                }, 10);
-
-                if (json.nameMessage === "" && json.emailMessage === "" && json.messageMessage === "") {
-
-                    $("#contact-form.error input, #contact-form.error textarea").removeClass("error");
-                    $('#contact-form').addClass("success");
-                    $('#contact-form textarea, #contact-form input').attr("placeholder","");
-                    $('#contact-form input, #contact-form button, #contact-form textarea').val('').prop('disabled', true);
-
-                }
-
-            }
-
-        });
-
-    });
-
+    
     
 });
