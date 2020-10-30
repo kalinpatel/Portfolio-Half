@@ -878,7 +878,11 @@ a:hover
 {
     background: red;
 }
-
+#contact #contact-form input:invalid,
+#contact #contact-form textarea:invalid
+{
+    background: red;
+}
 #contact #contact-form input
 {
     line-height: 3.2em;
