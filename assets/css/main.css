@@ -963,10 +963,10 @@ a:hover
     width: 100%;
 }
 #contact #contact-form input:hover {
-	background: #ea00e6;
+/* 	background: #ea00e6; */
 }
 #contact #contact-form textarea:hover {
-	background: #ea00e6;
+/* 	background: #ea00e6; */
 }
 #contact #contact-form .success-message
 {
@@ -990,6 +990,11 @@ a:hover
     color: #fff;
     border-radius: 3em;
     background: limegreen;
+}
+
+.g-recaptcha {
+/*     width: 100%; */
+    
 }
 
 #contact #contact-form.success .success-message
