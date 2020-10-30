@@ -935,7 +935,8 @@ a:hover
     content: '';
 
     border-radius: 100px;
-    background: #ea00e6;
+/*     background: #ea00e6; */
+	background: #015fd8;
 }
 
 #contact #contact-form button:after
@@ -953,7 +954,8 @@ a:hover
          -o-transition: .2s ease;
             transition: .2s ease;
 
-    background: #015fd8;
+/*     background: #015fd8; */
+	background: #ea00e6;
 }
 
 #contact #contact-form button:hover:after
