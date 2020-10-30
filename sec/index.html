@@ -274,7 +274,14 @@
 		width: calc(100% - 150px);
 		padding-left: 20px;
 		height: 175px;
-	
+	    }
+	.sticktop {
+		position: relative;
+		}
+	.stickdown {
+		position: absolute;
+  		bottom: 0;
+	    }
     </style>
 </head>
 <!-- <div style="position: absolute; min-width: 20vw; max-width: 30vw; top: 0; left: 0; padding: 20px;">
@@ -352,12 +359,14 @@
 	    <div class="mymedia">
 			<div class="viewer">
 				<img class="preview" src="/assets/img/background.jpg"/>
-				<span class="descriptor">
-				<p>Golf Picture tile</p>
-				<h5>Format: PNG</h5>
-				<h5>9th Grade Varsity Golf, Professional School Photo</h5>
-				<a class="btn btn-outline-success dwn" href="/assets/img/background.jpg" role="button" target="_blank" download style="text-decoration: none; text-align: center; position: absolute; font-family: Arial; width: 100%; border-radius: 150px;">Download</a>
-				</span>
+				<div class="descriptor">
+					<div class="sticktop">
+						<p>Golf Picture tile</p>
+						<h5>Format: PNG</h5>
+						<h5>9th Grade Varsity Golf, Professional School Photo</h5>
+					</div>
+				<a class="btn btn-outline-success stickdown" href="/assets/img/background.jpg" role="button" target="_blank" download style="text-decoration: none; text-align: center; position: absolute; font-family: Arial; margin: auto; width: 40%; border-radius: 150px;">Download</a>
+				</div>
 			</div>
 		</div>
     </section>	
