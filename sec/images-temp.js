@@ -1,3 +1,6 @@
+// THIS IS NOT REUSABLE. EITHER COPY THIS FILE OR COPY AND PASTE INTO HTML WHEN NEEDED. CHANGE ID'S SUCH AS myModal, mySLides, etc.
+// FIND CODE HERE https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_lightbox
+
 function openModal() {
   document.getElementById("myModal").style.display = "block";
 }
