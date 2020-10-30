@@ -838,9 +838,9 @@ a:hover
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
 }
-#contact #contact-form button {
+/* #contact #contact-form button {
 	background: #ea0036;
-}
+} */
 
 #contact #contact-form.success input,
 #contact #contact-form.success textarea,
@@ -878,10 +878,12 @@ a:hover
 {
     background: red;
 }
-#contact #contact-form input:invalid,
-#contact #contact-form textarea:invalid
+#contact #contact-form input:valid,
+#contact #contact-form textarea:valid
 {
-    background: red;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: medium;
 }
 #contact #contact-form input
 {
@@ -932,7 +934,7 @@ a:hover
     content: '';
 
     border-radius: 100px;
-    background: #111;
+    background: #ea0036;
 }
 
 #contact #contact-form button:after
@@ -950,7 +952,7 @@ a:hover
          -o-transition: .2s ease;
             transition: .2s ease;
 
-    background: #008aff;
+    background: #015fd8;
 }
 
 #contact #contact-form button:hover:after
