@@ -823,6 +823,7 @@ a:hover
 #contact #contact-form button
 {
     font-size: 2rem;
+    min-width: 100%;
 
     margin-bottom: 3.4vh;
 
@@ -934,7 +935,7 @@ a:hover
     content: '';
 
     border-radius: 100px;
-    background: #ea0036;
+    background: #ea00e6;
 }
 
 #contact #contact-form button:after
