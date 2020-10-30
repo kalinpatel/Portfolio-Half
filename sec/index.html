@@ -251,6 +251,26 @@
                 margin-bottom: 8%;
             }
         }
+	    
+	.mymedia {
+		width: 100%;
+		min-height: 150px;
+	    }
+	.viewer {
+		width: 100%;
+		height: 150px;
+		margin-bottom: 20px;
+		overflow: hidden;
+	    }
+	
+	.preview {
+		width: 150px;
+		float: left;
+	    }
+	
+	.descriptor {
+		float: left;
+		width: calc(100% - 150px);
     </style>
 </head>
 <!-- <div style="position: absolute; min-width: 20vw; max-width: 30vw; top: 0; left: 0; padding: 20px;">
@@ -328,7 +348,10 @@
 	    <div class="mymedia">
 			<div class="viewer">
 				<img class="preview" src="/assets/img/background.jpg"/>
-				<a class="btn btn-outline-success" href="/assets/img/background.jpg" role="button" target="_blank" download style="text-decoration: none; text-align: center; font-family: Arial; width: 40%; border-radius: 150px;">Download</a>
+				<p class="descriptor">
+				Hey these are my wonderful test words how are you reading them this is really long so I can see how the text wraps. Hopefully this works becuase i've spend a long time trying to get this to work. This is coming towards the end of my decription with a class of descriptor and now I am at the end.
+				<a class="btn btn-outline-success" href="/assets/img/background.jpg" role="button" target="_blank" download style="text-decoration: none; text-align: center; margin-left: 20%; margin-right: 20%; position: absolute; font-family: Arial; width: 60%; border-radius: 150px;">Download</a>
+				</p>
 			</div>
 		</div>
     </section>	
