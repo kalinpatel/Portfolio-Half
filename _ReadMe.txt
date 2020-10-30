@@ -1,11 +1,3 @@
------------------------------------------------------------------------------------------------------------------------
-------> INFO
------------------------------------------------------------------------------------------------------------------------
-
-Template Name: Miller
-Design/Development: templatefoundation.com
-License: Free for personal and commercial use under the Creative Commons Attribution 4.0 license
-
 
 -----------------------------------------------------------------------------------------------------------------------
 ------> CREDITS
@@ -21,9 +13,3 @@ License: Free for personal and commercial use under the Creative Commons Attribu
 - Font Awesome ( http://fontawesome.io/ )
 - Demo Images ( https://pixabay.com/ )
 
-
------------------------------------------------------------------------------------------------------------------------
-------> NOTICE
------------------------------------------------------------------------------------------------------------------------
-
-- Contact form only works in a server environment.
