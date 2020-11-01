@@ -9,4 +9,4 @@
 - **Use** the build command `npx staticrypt data/pages/FOLDER/page.html PASSWORD -o data/pages/FOLDER/page.html`
 - **Edit** the `page.html` file using [StackEdit](https://stackedit.io/app#).
 - **Publish** the code generated from StackEdit export by replacing the content of the page.
-- **Link** to the page. Link to `/data/pages/FOLDER` for the unprotected page. Link to `/data/pages/FOLDER/index.html` for the user to see the gated content message and continue to the login page. Link to `/data/pages/FOLDER/page.html` if the user is already aware of the gated content and should go directly to the passphrase entry.
+- **Link** to the page. Remove the protection code from Netlify for the unprotected page (comment the code in the document for future use). Link to `/data/pages/FOLDER/index.html` for the user to see the gated content message and continue to the login page. Link to `/data/pages/FOLDER/page.html` if the user is already aware of the gated content and should go directly to the passphrase entry.
