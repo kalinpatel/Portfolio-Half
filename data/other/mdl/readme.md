@@ -1,6 +1,6 @@
 #### This folder contains resources for the data folder. Using Google's Material Design for data folder.
 
-## To create a new docs page as a dev, follow these steps:
+<!-- ## To create a new docs page as a dev, follow these steps:
 
 - **Copy** the "template" foler within the directory `/data/pages/*`
 - **Rename** the folder to a unique name, and make sure both the `index.html` and `page.html` files are present
@@ -10,4 +10,17 @@
 - **Publish** the code generated from StackEdit export by replacing the content of the page.
 - **Link** to the page. Remove the protection code from Netlify for the unprotected page (comment the code in the document for future use). Link to `/data/pages/FOLDER/index.html` for the user to see the gated content message and continue to the login page. Link to `/data/pages/FOLDER/page.html` if the user is already aware of the gated content and should go directly to the passphrase entry.
 
-Note, when using Live Server in VSCode, page protection is not active (Netlify adds protection).
+Note, when using Live Server in VSCode, page protection is not active (Netlify adds protection). -->
+
+## To add page protection to a page
+
+- Copy the template folder in `/data/pages/secure/template`
+- Change the page code in `page.html` and rename folder
+- Link to the document at `/data/pages/secure/FOLDERNAME/index.html`
+- Ready to use
+
+## To use an unprotected page
+
+- Copy the template folder in `/data/pages/open/template`
+- Edit the `index.html` file and change the folder name
+- Link to page at `/data/pages/open/FOLDERNAME/index.html
