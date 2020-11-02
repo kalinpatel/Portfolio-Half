@@ -19,9 +19,9 @@
  
  ******************************************************************/
 
-.expand {
-/* 	min-height: 100vh; */
-}
+/* .expand {
+ min-height: 100vh; 
+} */
 
 
 /** 1. Basic
@@ -619,7 +619,7 @@ a:focus
             transition: .25s ease;
 
     color: #fff;
-    background: #008aff;
+    background: #001869;
 }
 
 #work .showcase .item:hover .info
@@ -989,7 +989,7 @@ a:focus
 }
 
 .g-recaptcha {
-/*     width: 100%; */
+    width: 100%;
     
 }
 
