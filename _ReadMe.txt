@@ -22,3 +22,6 @@ TODO:
 - Media Downloads
 - More about me Page
 - Portfolio as a document (word)
+- About this Site Page
+- Golf Achievements Page
+- Create portfolio examples
