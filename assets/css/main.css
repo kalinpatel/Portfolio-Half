@@ -1097,3 +1097,10 @@ a:focus
     color: #000;
     border-bottom: 1px solid #111;
 }
+
+/* MY OTHER */
+
+.bq-emergency {
+    border-left: 5px solid #df4759;
+    background-color: #F5EEEE;
+}
