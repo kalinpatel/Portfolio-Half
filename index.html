@@ -127,9 +127,9 @@
             <a href="#"
             data-featherlight="#item-hphs-lightbox">Highland Park High School</a>
             in Illinois. I am a skilled
-            <a href="data/pages/open/frontend/index.html"
+            <a href="#" data-featherlight="#item-frontend-lightbox"
               >front-end web developer</a
-            >. In my <a href="data/pages/open/webwork/index.html">projects</a>,
+            >. In my <a href="#work">projects</a>,
             I try to create a simple, elegant, and friendly user experience. At
             Highland Park High School, I played on the varsity
             <a href="data/pages/open/golf-team/index.html">golf team</a> in my
@@ -184,9 +184,9 @@
         <!-- /SERVICE -->
 
         <!-- WORK -->
-        <!-- WORK GOES HERE -->
+        <!-- LIGHTBOXES -->
         <section id="work">
-          <h3 class="headline scroll-animated-from-right">My latest Work.</h3>
+          <h3 class="headline scroll-animated-from-right">My Latest Projects</h3>
 
           <!-- SHOWCASE -->
           <div class="showcase">
@@ -229,6 +229,7 @@
                   risus nec interdum. Proin lobortis, ex condimentum ultricies
                   eleifend, nisl nunc sollicitudin odio, eget egestas est turpis
                   et metus. In non ligula quis mauris rutrum porta.
+                  <a href="#" data-featherlight="#item-hphs-lightbox">Other lightbox</a>
                 </p>
               </div>
               <!-- /LIGHTBOX -->
@@ -400,6 +401,50 @@
                   width="100%"
                   height="180px"
                 ></iframe>
+                </p>
+              </div>
+              <div id="item-frontend-lightbox" class="work-lightbox">
+                <img
+                  class="img-responsive"
+                  src="assets/img/work/codemain.jpeg"
+                  alt="image"
+                />
+
+                <h3>Front-End Web Developer</h3>
+                <!-- <p class="subline">Web Design</p> -->
+
+                <p>
+                  <br><br><h4>What is a Front-end Web Developer?</h4>
+                  Web developers take a web design and turn it into code, usually HTML (Hyper Text Markup Language). Web development is usually a long, complicated process, and different types of developers specialize in different areas, which means that large web projects are usually a collaboration between several different developers.
+                  <br><h4>What do I do as a front-end web developer?</h4>
+                  I create the visualized parts of a website. In my case, I am also a web designer, as I create the theming and layouts of my website as well as coding them. You can see some of my code on Github <a href="https://github.com/kalinpatel/">here</a>, or view the code for this website you are on right now below. A front-end web developer usually handles HTML and CSS code, and I’ve included some snippets below.
+                  <br><br>
+                  <!-- <iframe
+                  src="/data/download/frontend"
+                  style="
+                    min-width: 300px;
+                    max-width: 1000px;
+                    box-shadow: 0px 8px 18px #888888;
+                  "
+                  width="100%"
+                  height="180px"
+                  ></iframe> -->
+                  <a href="https://github.com/kalinpatel/Portfolio-Half"><button class="btn btn-primary">View Code for This Website</button></a>
+                  <br><br>
+                  <h4>Code Samples</h4>
+                  To see a few samples of code that are in this website, you can go to the code for each language I use: <br><br>
+                  <ul style="list-style-type: none;">
+                    <li>
+                      <a href="https://github.com/kalinpatel/Portfolio-Half/blob/main/index.html" data-toggle="tooltip" title="View my code on Github"><code style="text-decoration: underline;">index.html</code></a> <small>- Hyper Text Markup Language</small>
+                    </li>
+                    <br>
+                    <li>
+                      <a href="https://github.com/kalinpatel/Portfolio-Half/blob/main/assets/css/main.css" data-toggle="tooltip" title="View my code on Github"><code style="text-decoration: underline;">main.css</code></a> <small>- Cascading Style Sheet</small>
+                    </li>
+                    
+                  </ul>
+                 
+
                 </p>
               </div>
               <div
@@ -610,6 +655,11 @@
     <!-- /CONTENT AREA -->
 
     <!-- JAVASCRIPTS -->
+    <!-- <script>
+      $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip(); 
+      });
+      </script> -->
     <script type="text/javascript" src="assets/js/plugins.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
   </body>
