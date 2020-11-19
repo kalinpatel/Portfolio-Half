@@ -26,3 +26,11 @@ $(document).scroll(function () {
     }
 
 });
+// new ScrollMagic.Scene({
+//     triggerElement: "#work",
+//     triggerHook: 0.9,
+//     duration: "80%",
+//     offset: 50
+// })
+//     .setClassToggle("#img2", "showit")
+//     .addTo(controller);

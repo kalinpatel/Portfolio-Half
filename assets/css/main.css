@@ -244,9 +244,14 @@ a:focus {
 
 .image-2-co {
     display: none;
-
+    /* opacity: 0;
+    transform: scale(0.9) transition: all 1s ease-in-out */
 }
 
+.showit {
+    opacity: 1;
+    transform: none;
+}
 
 
 .image-3-co {
@@ -1053,4 +1058,8 @@ a:focus {
 .bq-emergency {
     border-left: 5px solid #df4759;
     background-color: #F5EEEE;
+}
+
+.tooltip {
+    z-index: 100000000;
 }
