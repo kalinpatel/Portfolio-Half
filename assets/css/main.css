@@ -263,19 +263,19 @@ a:focus {
 }
 
 .image-2 {
-    background: url(https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg);
+    background: url(/assets/img/bkg2.png);
 
 
 
 }
 
 .image-3 {
-    background: url(https://i.pinimg.com/564x/6f/d6/8c/6fd68ced202b643053e9f281de52a016.jpg);
+    background: url(/assets/img/bkg3.jpg);
 
 }
 
 .image-4 {
-    background: url(https://images.pexels.com/photos/4173624/pexels-photo-4173624.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background: url(/assets/img/bkg4.jpg);
 
 }
 
