@@ -556,7 +556,7 @@ a:focus {
     line-height: 3.4em;
 }
 
-#service .services-list li i {
+#service .services-list li .cir {
     font-size: 2rem;
     line-height: 3em;
 
@@ -571,6 +571,23 @@ a:focus {
     background: #111;
 }
 
+.my-panel-title {
+    position: relative;
+    display: inline-block;
+}
+
+.my-panel-title::after {
+    content: "\f107";
+    color: #333;
+    top: 0px;
+    right: 0px;
+    position: fixed;
+    font-family: "FontAwesome"
+}
+
+.my-panel-title[aria-expanded="true"]::after {
+    content: "\f106";
+}
 
 
 /** 8. Content Area --> Work
